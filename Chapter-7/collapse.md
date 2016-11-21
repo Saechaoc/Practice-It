@@ -1,5 +1,4 @@
 /*
-
 Write a method called collapse that accepts an array of integers as 
 a parameter and returns a new array containing the result of replacing 
 each pair of integers with the sum of that pair. For example, if an array 
@@ -10,12 +9,10 @@ is collapsed into 17 (8 + 9), and so on. If the list stores an odd number of ele
 the final element is not collapsed. For example, if the list had been {1, 2, 3, 4, 5}, 
 then the call would return {3, 7, 5}. Your method should not change the array that 
 is passed as a parameter.
-
 */
 
 public static int[] collapse(int[] array) {
     int[] newArray = new int[(array.length+1)/2];
-    
     for (int i = 0; i < array.length/2; i++) {
         newArray[i] = array[2 * i] + array[2 * i + 1];
     } 
