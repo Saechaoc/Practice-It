@@ -14,7 +14,7 @@ is passed as a parameter.
 */
 
 public static int[] collapse(int[] array) {
-	int[] newArray = new int[(array.length+1)/2];
+    int[] newArray = new int[(array.length+1)/2];
     
     for (int i = 0; i < array.length/2; i++) {
         newArray[i] = array[2 * i] + array[2 * i + 1];
