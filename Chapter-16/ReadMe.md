@@ -9,7 +9,8 @@
 *   creates node with given data, null link
 *   public ListNode(int data, ListNode next)
 
-```public class ListNode {
+```java
+public class ListNode {
     public int data;       // data stored in this node
     public ListNode next;  // link to next node in the list
 
