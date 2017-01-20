@@ -1,6 +1,6 @@
-This chapter is on LinkedIntLists and ListNodes which are defined as the following:
+#LinkedIntLists and ListNodes
 
-// ListNode is a class for storing a single node of a linked list storing
+** ListNode is a class for storing a single node of a linked list storing
 // integer values.  It has two public data fields for the data and the link to
 // the next node in the list and has three constructors:
 //   public ListNode()
@@ -9,7 +9,7 @@ This chapter is on LinkedIntLists and ListNodes which are defined as the followi
 //     creates node with given data, null link
 //   public ListNode(int data, ListNode next)
 //     creates node with given data and given link
-
+**
 public class ListNode {
     public int data;       // data stored in this node
     public ListNode next;  // link to next node in the list
