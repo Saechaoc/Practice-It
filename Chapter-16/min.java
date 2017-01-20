@@ -15,7 +15,7 @@ public int min() {
     }
     ListNode temp = front;
     int value = front.data;
-    while(temp != null) {
+    while(temp != null) {
         int min = temp.data;
         if(min < value) {
             value = min;
