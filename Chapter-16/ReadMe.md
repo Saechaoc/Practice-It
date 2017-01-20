@@ -4,11 +4,10 @@
 * integer values.  It has two public data fields for the data and the link to
 * the next node in the list and has three constructors:
 *   public ListNode()
-*     creates node with data 0, null link
+*   creates node with data 0, null link
 *   public ListNode(int data)
-*     creates node with given data, null link
+*   creates node with given data, null link
 *   public ListNode(int data, ListNode next)
-*     creates node with given data and given link
 
     public class ListNode {
     public int data;       // data stored in this node
